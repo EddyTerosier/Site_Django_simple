@@ -1,0 +1,46 @@
+# Environnements virtuels
+.venv/
+env/
+venv/
+
+# Base de données SQLite
+*.sqlite3
+db.sqlite3
+
+# Fichiers de migration compilés
+**/migrations/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de logs
+*.log
+
+# Caches et fichiers temporaires
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*~
+__pycache__/
+.DS_Store
+
+# JetBrains / VSCode / autres IDE
+.idea/
+.vscode/
+*.iml
+
+# Fichiers compilés
+*.mo
+
+# Coverage / tests
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Django collectstatic
+staticfiles/
+media/
